@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Learn Bootstrap -2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Aowsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Googel Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!--  Start my header -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand upper" href="#">ax<span class="color1">it</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll="home">home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll="tabs">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#" data-scroll="features" >features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll="pricing">pricing</a>
+                    </li>
+                    <li><a class="nav-link" href="#" data-scroll="testimonials">testimonials</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll="stylish">reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll="contect">contect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="home">
+        <div class="overlay center" >
+            <div class="container">
+                <div class="row center-vh">
+                    <div class="col-md-6">
+                        <h1 class="upper">ax<span class="color1">it</span></h1>
+                        <p class="lead upper line">Modern Axure Template For Beautiful Prototypes</p>
+                        <p class="text-center-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+                        <button class="hover-effect">Download</button>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="d-block m-auto">
+                            <h2 class="text-center">Try Your <span class="color1">Free</span> Trial Today</h2>
+                            <input class="form-control" type="text" name="username" placeholder="Name" />
+                            <input class="form-control" type="email" name="email" placeholder="Email" />
+                            <input class="form-control" type="password" name="password" placeholder="Password" />
+                            <input class="btn" Type="submit" value="Get Started" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <!-- Start Social Media -->
+    <Section class="social-section center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Social Media</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="col-md-8">
+                    <i class="fab fa-facebook fa-3x fa-fw"></i>
+                    <i class="fab fa-twitter fa-3x fa-fw"></i>
+                    <i class="fab fa-google-plus fa-3x fa-fw"></i>
+                    <i class="fab fa-pinterest fa-3x fa-fw"></i>
+                    <i class="fab fa-instagram fa-3x fa-fw"></i>
+                    <i class="fab fa-stumbleupon fa-3x fa-fw"></i>
+                    <i class="fas fa-rss fa-3x fa-fw"></i>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- End Social Medial -->
+
+    <!-- Start Tabs -->
+    <Section class="tabs center" id="tabs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <ul class="text-center upper">
+                        <li class="selected" data-class=".tab-one">Tab 1</li>
+                        <li data-class=".tab-two">Tab 2</li>
+                        <li data-class=".tab-three">Tab 3</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="tabs-content">
+                        <div class="tab-one">
+                            <h3>Tab Number One</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <button class="btn btn-lg">Download</button>
+                        </div>
+                        <div class="tab-two">
+                            <h3>Tab Number Two</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <button class="btn btn-lg">Download</button>
+                        </div>
+                        <div class="tab-three">
+                            <h3>Tab Number Three</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <button class="btn btn-lg">Download</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="images/home.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- End Tabs -->
+
+    <!-- Start Sublist -->
+    <Section class="sublist center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="images/sublist.png" alt="" />
+                </div>
+                <div class="col-md-6">
+                    <div class="list-info">
+                        <h3 class="line">Sublist Section</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="list-icon">
+                            <i class="fa fa-cloud-download fa-lg"></i>
+                            <div class="text-info">
+                                <h4>Download</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                        </div>
+                        <div class="list-icon">
+                            <i class="fa fa-cloud-upload fa-lg"></i>
+                            <div class="text-info">
+                                <h4>Upload</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- End Sublist -->
+
+    <!-- Start Standard Picture -->
+    <section class="standard-picture center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="list-info">
+                        <h3 class="line">Standard Picture</h3>
+                        <p class="standard-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="images/standard.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Standard Picture -->
+
+    <!-- Start Awesome -->
+    <section class="awesome text-center" id="features">
+        <div class="container">
+            <h2 class="h1 line-center upper">Why This is Awesome</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="col-md-4 feat-box">
+                    <i class="far fa-lightbulb fa-3x"></i>
+                    <h3>Thoughtful Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                </div>
+                <div class="col-md-4 feat-box">
+                    <i class="far fa-keyboard fa-2x"></i>
+                    <h3>Well Crafted</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                </div>
+                <div class="col-md-4 feat-box">
+                    <i class="fab fa-wolf-pack-battalion fa-3x"></i>
+                    <h3>Easy To Customize</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Awesome -->
+
+    <!-- Start Price -->
+    <Section class="price text-center" id="pricing">
+        <div class="container">
+            <h2 class="h1 line-center upper">Pricing Options</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="price-box basic">
+                        <h3>Basic</h3>
+                        <div class="option-price">
+                            <span>
+                                <span>$</span>0
+                            </span>
+                            <span>Free For Life</span>
+                        </div>
+                        <ul class="configuration">
+                            <li>1 GB Of Space</li>
+                            <li>10 GB Of Bandwidth</li>
+                            <li>3 Websites</li>
+                            <li>Basic Customization</li>
+                            <li>WordPress Integration</li>
+                            <li>Email Support</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="price-box professional">
+                        <h3>Professional</h3>
+                        <div class="option-price">
+                            <span>
+                                <span>$</span>19
+                            </span>
+                            <span>Monthly Payment</span>
+                        </div>
+                        <p>Our Most Popular</p>
+                        <ul class="list-unstyled configuration">
+                            <li>5 GB Of Space</li>
+                            <li>50 GB Of Bandwidth</li>
+                            <li>12 Websites</li>
+                            <li>Advanced Customization</li>
+                            <li>WordPress Customization</li>
+                            <li>Email Support</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="price-box enterprise">
+                        <h3>Enterprise</h3>
+                        <div class="option-price">
+                            <span>
+                                <span>$</span>70
+                            </span>
+                            <span>Monthly Payment</span>
+                        </div>
+                        <ul class="list-unstyled configuration">
+                            <li>Unlimited Space</li>
+                            <li>Unlimited Bandwidth</li>
+                            <li>100 Websites</li>
+                            <li>Advanced Customization</li>
+                            <li>WordPress Customization</li>
+                            <li>24/7 Customer Support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- End Price -->
+
+    <!-- Start Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="h1 line-center upper text-center">What Our Customers Are Saying</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="media">
+                        <div class="media-left">
+                            <img class="img-thumbnail rounded-circle" src="images/avatar.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <h4>Jeremy H.</h4>
+                            <p>Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="media">
+                        <div class="media-left">
+                            <img class="img-thumbnail rounded-circle" src="images/avatar.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <h4>John S.</h4>
+                            <p>Freelancer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="media">
+                        <div class="media-left">
+                            <img class="img-thumbnail rounded-circle" src="images/avatar.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <h4>Susan W.</h4>
+                            <p>Photographer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonials -->
+
+    <!-- Start Stylish -->
+    <section class="stylish" id="stylish">
+        <div class="overlay text-center">
+            <div class="container">
+                <h2 class="h1 line-center upper">Stylish Axure Design</h2>
+                <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!.</p>
+                <button class="hover-effect">Download</button>
+            </div>
+        </div>
+    </section>
+    <!-- End Stylish -->
+
+    <!-- Start Contact Us -->
+    <section class="contact-us text-center" id="contect">
+        <div class="container">
+            <h2 class="h1 line-center upper ">Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input class="form-control form-control-lg" type="text" name="username" placeholder="Name" />
+                        <input class="form-control form-control-lg" type="email" name="email" placeholder="Email" />
+                        <input class="form-control form-control-lg" type="text" name="subject" placeholder="Subject" />
+                    </div>
+                    <div class="col-md-6">
+                        <textarea class="form-control form-control-lg" placeholder="Message"></textarea>
+                    </div>
+
+                </div>
+            </form>
+            <button class="contact-btn">Send Message</button>
+        </div>
+    </section>
+    <!-- End Contact Us -->
+
+    <!-- Start Footer -->
+    <footer class="text-center">
+        <p>&copy; Axure Themes 2022</p>
+    </footer>
+    <!-- End Footer -->
+    <i class="fa fa-arrow-up"></i>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body></html>
