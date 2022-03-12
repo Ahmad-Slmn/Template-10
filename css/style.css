@@ -707,8 +707,7 @@ footer p {
     }
     
     header form{
-        position: relative;
-        right: 4px
+        width: 330px
     }
     
     .li-box{
