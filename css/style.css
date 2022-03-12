@@ -706,6 +706,16 @@ footer p {
         text-align: center
     }
     
+    header form{
+        position: relative;
+        right: 4px
+    }
+    
+    .li-box{
+        position: relative;
+        right: 16px
+    }
+    
     .testimonials h2{font-size: 15px !important}
 
     .h1{
@@ -719,7 +729,7 @@ footer p {
 
     .line::after,
     .line-center::after {
-        margin: 10px auto
+        margin: 2px auto
     }
 
     header .row.center-vh {
